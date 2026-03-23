@@ -1,1 +1,30 @@
-
+[
+  {
+    "name": "Unlimited Resources",
+    "cost": 1,
+    "uniques": [
+      "Gain a free [Unlimited Resources] [in all cities]",
+      "Provides [999] Iron",
+      "Provides [999] Horses",
+      "Provides [999] Coal",
+      "Provides [999] Oil",
+      "Provides [999] Aluminum",
+      "Provides [999] Uranium",
+      "Provides [999] Silk",
+      "Provides [999] Spices",
+      "Provides [999] Gold",
+      "Provides [999] Wine",
+      "Provides [999] Cotton",
+      "Provides [999] Dyes",
+      "Provides [999] Furs",
+      "Provides [999] Gems",
+      "Provides [999] Ivory",
+      "Provides [999] Marble",
+      "Provides [999] Pearls",
+      "Provides [999] Silver",
+      "Provides [999] Sugar",
+      "Provides [999] Truffles",
+      "Provides [999] Whales"
+    ]
+  }
+]
