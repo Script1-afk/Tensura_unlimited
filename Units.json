@@ -1,1 +1,121 @@
-{"units":[{"name":"Rimuru Tempest","type":"Rimuru","evolutions":[{"stage":"Base","stats":{"hp":1000,"attack":150,"defense":80},"skills":["Predator","Magic Sense"],"bonuses":["Increases magic damage"]},{"stage":"Awakened","stats":{"hp":2000,"attack":300,"defense":160},"skills":["Storm Dragon","Void Magic"],"bonuses":["Increases all damage"]}]},{"name":"Shion","type":"Major Character","evolutions":[{"stage":"Base","stats":{"hp":1200,"attack":200,"defense":90},"skills":["Raging Shout","Instantaneous Movement"],"bonuses":["Increases team's attack"]},{"stage":"Awakened","stats":{"hp":2500,"attack":400,"defense":200},"skills":["Battle Frenzy","Demonic Blade"],"bonuses":["Boosts all physical damage"]}]}]}
+{
+  "game_name": "Tensura RPG",
+  "units": [
+    {
+      "id": "U_001",
+      "name": "Rimuru Tempest",
+      "title": "Chancellor of Great Jura",
+      "type": "Magic DPS",
+      "rarity": "Legendary",
+      "faction": "Jura Tempest Federation",
+      "evolutions": [
+        {
+          "stage": "Base Slime",
+          "stats": {
+            "hp": 1500,
+            "attack": 250,
+            "defense": 120,
+            "speed": 105,
+            "crit_rate": 0.15
+          },
+          "skills": [
+            {
+              "name": "Predator",
+              "description": "Absorbs the enemy and copies their abilities or items."
+            },
+            {
+              "name": "Water Blade",
+              "description": "Fires a highly pressurized blade of water to slice enemies."
+            }
+          ],
+          "bonuses": [
+            "Increases Magic Damage by 15%",
+            "HP Regeneration +5%"
+          ]
+        },
+        {
+          "stage": "Awakened Demon Lord",
+          "stats": {
+            "hp": 4500,
+            "attack": 600,
+            "defense": 250,
+            "speed": 140,
+            "crit_rate": 0.25
+          },
+          "skills": [
+            {
+              "name": "Beelzebuth",
+              "description": "Consumes all matter and magical energy in a wide area."
+            },
+            {
+              "name": "Megiddo",
+              "description": "Fires concentrated sunbeams that pierce multiple enemies instantly."
+            }
+          ],
+          "bonuses": [
+            "Increases All Damage by 30%",
+            "Immunity to Status Ailments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U_002",
+      "name": "Shion",
+      "title": "First Secretary",
+      "type": "Physical Bruiser",
+      "rarity": "Epic",
+      "faction": "Jura Tempest Federation",
+      "evolutions": [
+        {
+          "stage": "Base Kijin",
+          "stats": {
+            "hp": 1800,
+            "attack": 300,
+            "defense": 150,
+            "speed": 95,
+            "crit_rate": 0.10
+          },
+          "skills": [
+            {
+              "name": "Gorikimaru Slash",
+              "description": "A devastating heavy slash using her massive odachi sword."
+            },
+            {
+              "name": "Cook (Unique Skill)",
+              "description": "Alters the laws of reality to guarantee her attacks hit."
+            }
+          ],
+          "bonuses": [
+            "Increases Team Attack by 10%",
+            "Physical Damage +15%"
+          ]
+        },
+        {
+          "stage": "Awakened Wicked Oni",
+          "stats": {
+            "hp": 5000,
+            "attack": 750,
+            "defense": 300,
+            "speed": 115,
+            "crit_rate": 0.20
+          },
+          "skills": [
+            {
+              "name": "Certain Outcome",
+              "description": "Overwrites reality so the enemy cannot heal from her damage."
+            },
+            {
+              "name": "Tyrant King Susanoo",
+              "description": "Unleashes absolute destructive physical power, ignoring enemy defenses."
+            }
+          ],
+          "bonuses": [
+            "Boosts Physical Damage by 35%",
+            "Attacks ignore 20% of Enemy Armor"
+          ]
+        }
+      ]
+    }
+  ]
+}
