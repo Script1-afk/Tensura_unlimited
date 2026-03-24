@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Magic Essence",
+    "resourceType": "Luxury",
+    "improvement": "Magical Node",
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest"],
+    "revealedBy": "Mystical Arts"
+  },
+  {
+    "name": "Demon Hearts",
+    "resourceType": "Strategic",
+    "improvement": "Demon Altar",
+    "terrainsCanBeFoundOn": ["Plains", "Hills", "Desert"],
+    "revealedBy": "Demonic Pacts",
+    "uniqueTo": "Jura Forest"
+  },
+  {
+    "name": "Dragon Scales",
+    "resourceType": "Strategic",
+    "improvement": "Dragon Shrine",
+    "terrainsCanBeFoundOn": ["Hills", "Mountains"],
+    "revealedBy": "Draconic Lore"
+  },
+  {
+    "name": "Dimensional Stone",
+    "resourceType": "Luxury",
+    "improvement": "Dimensional Rift",
+    "terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra"],
+    "revealedBy": "Dimensional Science"
+  },
+  {
+    "name": "Storm Essence",
+    "resourceType": "Luxury",
+    "improvement": "Storm Vortex",
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest"],
+    "revealedBy": "Storm Arts"
+  },
+  {
+    "name": "Absolute Power",
+    "resourceType": "Strategic",
+    "improvement": "Power Nexus",
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest", "Hills", "Desert", "Tundra"],
+    "revealedBy": "Absolute Dominion"
+  }
+]
