@@ -1,121 +1,426 @@
-{
-  "game_name": "Tensura RPG",
-  "units": [
-    {
-      "id": "U_001",
-      "name": "Rimuru Tempest",
-      "title": "Chancellor of Great Jura",
-      "type": "Magic DPS",
-      "rarity": "Legendary",
-      "faction": "Jura Tempest Federation",
-      "evolutions": [
-        {
-          "stage": "Base Slime",
-          "stats": {
-            "hp": 1500,
-            "attack": 250,
-            "defense": 120,
-            "speed": 105,
-            "crit_rate": 0.15
-          },
-          "skills": [
-            {
-              "name": "Predator",
-              "description": "Absorbs the enemy and copies their abilities or items."
-            },
-            {
-              "name": "Water Blade",
-              "description": "Fires a highly pressurized blade of water to slice enemies."
-            }
-          ],
-          "bonuses": [
-            "Increases Magic Damage by 15%",
-            "HP Regeneration +5%"
-          ]
-        },
-        {
-          "stage": "Awakened Demon Lord",
-          "stats": {
-            "hp": 4500,
-            "attack": 600,
-            "defense": 250,
-            "speed": 140,
-            "crit_rate": 0.25
-          },
-          "skills": [
-            {
-              "name": "Beelzebuth",
-              "description": "Consumes all matter and magical energy in a wide area."
-            },
-            {
-              "name": "Megiddo",
-              "description": "Fires concentrated sunbeams that pierce multiple enemies instantly."
-            }
-          ],
-          "bonuses": [
-            "Increases All Damage by 30%",
-            "Immunity to Status Ailments"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "U_002",
-      "name": "Shion",
-      "title": "First Secretary",
-      "type": "Physical Bruiser",
-      "rarity": "Epic",
-      "faction": "Jura Tempest Federation",
-      "evolutions": [
-        {
-          "stage": "Base Kijin",
-          "stats": {
-            "hp": 1800,
-            "attack": 300,
-            "defense": 150,
-            "speed": 95,
-            "crit_rate": 0.10
-          },
-          "skills": [
-            {
-              "name": "Gorikimaru Slash",
-              "description": "A devastating heavy slash using her massive odachi sword."
-            },
-            {
-              "name": "Cook (Unique Skill)",
-              "description": "Alters the laws of reality to guarantee her attacks hit."
-            }
-          ],
-          "bonuses": [
-            "Increases Team Attack by 10%",
-            "Physical Damage +15%"
-          ]
-        },
-        {
-          "stage": "Awakened Wicked Oni",
-          "stats": {
-            "hp": 5000,
-            "attack": 750,
-            "defense": 300,
-            "speed": 115,
-            "crit_rate": 0.20
-          },
-          "skills": [
-            {
-              "name": "Certain Outcome",
-              "description": "Overwrites reality so the enemy cannot heal from her damage."
-            },
-            {
-              "name": "Tyrant King Susanoo",
-              "description": "Unleashes absolute destructive physical power, ignoring enemy defenses."
-            }
-          ],
-          "bonuses": [
-            "Boosts Physical Damage by 35%",
-            "Attacks ignore 20% of Enemy Armor"
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "Jura Forest Settler",
+    "unitType": "Civilian",
+    "cost": 1,
+    "movement": 4,
+    "strength": 0,
+    "uniques": [
+      "Founds a new city",
+      "Prevents spreading of the tile owner's religion to the city it founds"
+    ]
+  },
+  {
+    "name": "Jura Forest Worker",
+    "unitType": "Civilian",
+    "cost": 1,
+    "movement": 5,
+    "strength": 0,
+    "uniques": [
+      "Can build [Improvements]",
+      "Can build [Roads]",
+      "No movement cost to pillage"
+    ]
+  },
+
+  {
+    "name": "Rimuru Slime",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 5,
+    "strength": 500,
+    "requiredTech": "Slime Physiology",
+    "upgradesTo": "Rimuru Evolved I",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [200] HP when killing a unit",
+      "[+50]% Strength vs [Melee] units"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved I",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 5,
+    "strength": 1000,
+    "requiredTech": "Mystical Arts",
+    "upgradesTo": "Rimuru Evolved II",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [400] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved II",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 2000,
+    "rangedStrength": 500,
+    "range": 2,
+    "requiredTech": "Predator Mastery",
+    "upgradesTo": "Rimuru Evolved III",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [800] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved III",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 4000,
+    "rangedStrength": 1000,
+    "range": 2,
+    "requiredTech": "Great Sage Protocol",
+    "upgradesTo": "Rimuru Evolved IV",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [1500] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved IV",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 8000,
+    "rangedStrength": 2000,
+    "range": 2,
+    "requiredTech": "Draconic Lore",
+    "upgradesTo": "Rimuru Evolved V",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [3000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved V",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 16000,
+    "rangedStrength": 4000,
+    "range": 2,
+    "requiredTech": "Storm Arts",
+    "upgradesTo": "Rimuru Evolved VI",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [6000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved VI",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 32000,
+    "rangedStrength": 8000,
+    "range": 2,
+    "requiredTech": "Dimensional Science",
+    "upgradesTo": "Rimuru Evolved VII",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [10000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved VII",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 8,
+    "strength": 64000,
+    "rangedStrength": 16000,
+    "range": 2,
+    "requiredTech": "Absolute Dominion",
+    "upgradesTo": "Rimuru Evolved VIII",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [20000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Evolved VIII",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 8,
+    "strength": 128000,
+    "rangedStrength": 32000,
+    "range": 2,
+    "requiredTech": "Octagram Mastery",
+    "upgradesTo": "Rimuru Demon King",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [40000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru Demon King",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 9,
+    "strength": 256000,
+    "rangedStrength": 64000,
+    "range": 2,
+    "requiredTech": "True Dragon Awakening",
+    "upgradesTo": "Rimuru True Demon Lord",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [80000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Rimuru True Demon Lord",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 10,
+    "strength": 999999,
+    "rangedStrength": 500000,
+    "range": 3,
+    "requiredTech": "Rimuru Awakening",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [999999] HP when killing a unit",
+      "[+100]% Strength"
+    ]
+  },
+
+  {
+    "name": "Veldora Tempest",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 8,
+    "strength": 100000,
+    "rangedStrength": 50000,
+    "range": 2,
+    "requiredTech": "Storm Arts",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [10000] HP when killing a unit",
+      "[+50]% Strength vs [City] tiles"
+    ]
+  },
+  {
+    "name": "Milim Nava",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 9,
+    "strength": 80000,
+    "rangedStrength": 40000,
+    "range": 2,
+    "requiredTech": "Octagram Mastery",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [8000] HP when killing a unit",
+      "[+25]% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Diablo",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 70000,
+    "requiredTech": "Demonic Pacts",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [7000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Shion",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 60000,
+    "requiredTech": "Demonic Pacts",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [5000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Ranga",
+    "unitType": "Mounted",
+    "cost": 1,
+    "movement": 10,
+    "strength": 65000,
+    "requiredTech": "Predator Mastery",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [5000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Benimaru",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 70000,
+    "rangedStrength": 35000,
+    "range": 2,
+    "requiredTech": "Storm Arts",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [6000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Hakuro",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 58000,
+    "requiredTech": "Mystical Arts",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [5000] HP when killing a unit",
+      "[+33]% Strength vs [Melee] units"
+    ]
+  },
+  {
+    "name": "Souei",
+    "unitType": "Scout",
+    "cost": 1,
+    "movement": 10,
+    "strength": 55000,
+    "requiredTech": "Predator Mastery",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "Heal this unit by [4000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Geld (Orc Lord)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 4,
+    "strength": 52000,
+    "requiredTech": "Demonic Pacts",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [8000] HP when killing a unit",
+      "[+25]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Gobta Cavalry",
+    "unitType": "Mounted",
+    "cost": 1,
+    "movement": 8,
+    "strength": 50000,
+    "requiredTech": "Slime Physiology",
+    "uniques": [
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Lizardman Warrior",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 5,
+    "strength": 51000,
+    "requiredTech": "Slime Physiology",
+    "uniques": [
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Orc Disaster",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 4,
+    "strength": 51500,
+    "requiredTech": "Slime Physiology",
+    "uniques": [
+      "Heal this unit by [3000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Demon Soldier",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 5,
+    "strength": 52000,
+    "requiredTech": "Demonic Pacts",
+    "uniques": [
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Demon Archer",
+    "unitType": "Ranged",
+    "cost": 1,
+    "movement": 4,
+    "strength": 40000,
+    "rangedStrength": 54000,
+    "range": 3,
+    "requiredTech": "Demonic Pacts"
+  },
+  {
+    "name": "Tempest Mage",
+    "unitType": "Ranged",
+    "cost": 1,
+    "movement": 4,
+    "strength": 38000,
+    "rangedStrength": 56000,
+    "range": 3,
+    "requiredTech": "Mystical Arts"
+  },
+  {
+    "name": "True Dragon Guardian",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 8,
+    "strength": 90000,
+    "rangedStrength": 45000,
+    "range": 2,
+    "requiredTech": "True Dragon Awakening",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [9000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Storm Dragon Corps",
+    "unitType": "Mounted",
+    "cost": 1,
+    "movement": 9,
+    "strength": 85000,
+    "requiredTech": "Draconic Lore",
+    "uniques": [
+      "Can move after attacking",
+      "Heal this unit by [8000] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Dimensional Colossus",
+    "unitType": "Siege",
+    "cost": 1,
+    "movement": 3,
+    "strength": 50000,
+    "rangedStrength": 200000,
+    "range": 4,
+    "requiredTech": "Rimuru Awakening",
+    "uniques": [
+      "[+200]% Strength vs [City] tiles",
+      "Must set up to ranged attack"
+    ]
+  },
+  {
+    "name": "Magicule Bomb",
+    "unitType": "Siege",
+    "cost": 1,
+    "movement": 3,
+    "strength": 45000,
+    "rangedStrength": 250000,
+    "range": 5,
+    "requiredTech": "Rimuru Awakening",
+    "uniques": [
+      "[+300]% Strength vs [City] tiles",
+      "Must set up to ranged attack"
+    ]
+  }
+]
