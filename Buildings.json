@@ -1,30 +1,148 @@
 [
   {
-    "name": "Unlimited Resources",
+    "name": "Tempest Castle",
     "cost": 1,
+    "maintenance": 0,
+    "culture": 1000,
+    "science": 1000,
+    "gold": 500,
+    "production": 500,
+    "faith": 200,
+    "isWonder": false,
+    "requiredTech": "Mystical Arts",
+    "quote": "\"The heart of Tempest, where all roads lead to Rimuru.\"",
     "uniques": [
-      "Gain a free [Unlimited Resources] [in all cities]",
-      "Provides [999] Iron",
-      "Provides [999] Horses",
-      "Provides [999] Coal",
-      "Provides [999] Oil",
-      "Provides [999] Aluminum",
-      "Provides [999] Uranium",
-      "Provides [999] Silk",
-      "Provides [999] Spices",
-      "Provides [999] Gold",
-      "Provides [999] Wine",
-      "Provides [999] Cotton",
-      "Provides [999] Dyes",
-      "Provides [999] Furs",
-      "Provides [999] Gems",
-      "Provides [999] Ivory",
-      "Provides [999] Marble",
-      "Provides [999] Pearls",
-      "Provides [999] Silver",
-      "Provides [999] Sugar",
-      "Provides [999] Truffles",
-      "Provides [999] Whales"
+      "[+500]% [Culture] [in this city]",
+      "[+500]% [Science] [in this city]",
+      "[+500]% [Production] [in this city]",
+      "[+500]% [Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Labyrinth Dimension",
+    "cost": 1,
+    "maintenance": 0,
+    "cityStrength": 500,
+    "cityHealth": 5000,
+    "requiredTech": "Dimensional Science",
+    "quote": "\"Veldora's labyrinth — infinite space, infinite power.\"",
+    "uniques": [
+      "[+500]% [Production] [in this city]",
+      "[+500]% [Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Octagram Court",
+    "cost": 1,
+    "maintenance": 0,
+    "gold": 1000,
+    "culture": 500,
+    "faith": 500,
+    "requiredTech": "Octagram Mastery",
+    "quote": "\"Where the eight demon lords convene.\"",
+    "uniques": [
+      "[+500]% [Gold] [in this city]",
+      "[+500]% [Culture] [in this city]"
+    ]
+  },
+  {
+    "name": "Storm Dragon Shrine",
+    "cost": 1,
+    "maintenance": 0,
+    "faith": 1000,
+    "science": 500,
+    "culture": 500,
+    "requiredTech": "Storm Arts",
+    "quote": "\"A shrine to honor Veldora Tempest, the Storm Dragon.\"",
+    "uniques": [
+      "[+500]% [Faith] [in this city]",
+      "[+500]% [Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Magicule Forge",
+    "cost": 1,
+    "maintenance": 0,
+    "production": 2000,
+    "gold": 500,
+    "requiredTech": "Predator Mastery",
+    "quote": "\"Forge infused with endless magical energy.\"",
+    "uniques": [
+      "[+500]% [Production] [in this city]",
+      "[+500]% [Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Great Sage Library",
+    "cost": 1,
+    "maintenance": 0,
+    "science": 2000,
+    "culture": 500,
+    "requiredTech": "Great Sage Protocol",
+    "quote": "\"The Great Sage stores all knowledge.\"",
+    "uniques": [
+      "[+500]% [Science] [in this city]",
+      "[+500]% [Culture] [in this city]"
+    ]
+  },
+  {
+    "name": "Demon King Palace",
+    "cost": 1,
+    "maintenance": 0,
+    "culture": 2000,
+    "faith": 1000,
+    "gold": 1000,
+    "requiredTech": "Absolute Dominion",
+    "quote": "\"The palace where Rimuru rules as Demon King.\"",
+    "uniques": [
+      "[+500]% [Culture] [in this city]",
+      "[+500]% [Faith] [in this city]",
+      "[+500]% [Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "True Dragon Sanctum",
+    "cost": 1,
+    "maintenance": 0,
+    "production": 1000,
+    "science": 1000,
+    "gold": 1000,
+    "culture": 1000,
+    "faith": 1000,
+    "requiredTech": "True Dragon Awakening",
+    "quote": "\"A sanctum housing the essence of True Dragons.\"",
+    "uniques": [
+      "[+500]% [Production] [in this city]",
+      "[+500]% [Science] [in this city]",
+      "[+500]% [Gold] [in this city]",
+      "[+500]% [Culture] [in this city]",
+      "[+500]% [Faith] [in this city]"
+    ]
+  },
+  {
+    "name": "Slimecrown Academy",
+    "cost": 1,
+    "maintenance": 0,
+    "science": 3000,
+    "culture": 1000,
+    "requiredTech": "Rimuru Awakening",
+    "quote": "\"Knowledge is the truest power.\"",
+    "uniques": [
+      "[+500]% [Science] [in this city]",
+      "[+500]% [Culture] [in this city]",
+      "[+500]% [Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Dimensional Armory",
+    "cost": 1,
+    "maintenance": 0,
+    "production": 3000,
+    "cityStrength": 1000,
+    "requiredTech": "Rimuru Awakening",
+    "quote": "\"Weapons forged from dimensional matter — indestructible.\"",
+    "uniques": [
+      "[+500]% [Production] [in this city]"
     ]
   }
 ]
