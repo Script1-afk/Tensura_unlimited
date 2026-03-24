@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Slime Physiology",
+    "cost": 1,
+    "row": 1,
+    "column": 1,
+    "era": "Ancient",
+    "prerequisites": [],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]"
+    ],
+    "quote": "\"The slime absorbs all knowledge instantly.\""
+  },
+  {
+    "name": "Mystical Arts",
+    "cost": 1,
+    "row": 1,
+    "column": 2,
+    "era": "Ancient",
+    "prerequisites": ["Slime Physiology"],
+    "uniques": [
+      "[+500]% [Culture] [in all cities]",
+      "[+500]% [Gold] [in all cities]"
+    ],
+    "quote": "\"Magic flows through every vein of Tempest.\""
+  },
+  {
+    "name": "Demonic Pacts",
+    "cost": 1,
+    "row": 1,
+    "column": 3,
+    "era": "Ancient",
+    "prerequisites": ["Mystical Arts"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]"
+    ],
+    "quote": "\"The demons swear loyalty to Rimuru.\""
+  },
+  {
+    "name": "Great Sage Protocol",
+    "cost": 1,
+    "row": 2,
+    "column": 1,
+    "era": "Classical",
+    "prerequisites": ["Slime Physiology"],
+    "uniques": [
+      "[+500]% [Science] [in all cities]"
+    ],
+    "quote": "\"Great Sage: Query acknowledged. Solution instantiated.\""
+  },
+  {
+    "name": "Predator Mastery",
+    "cost": 1,
+    "row": 2,
+    "column": 2,
+    "era": "Classical",
+    "prerequisites": ["Mystical Arts"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Culture] [in all cities]"
+    ],
+    "quote": "\"Predator devours all — skills, magic, and enemies alike.\""
+  },
+  {
+    "name": "Draconic Lore",
+    "cost": 1,
+    "row": 2,
+    "column": 3,
+    "era": "Classical",
+    "prerequisites": ["Demonic Pacts"],
+    "uniques": [
+      "[+500]% [Gold] [in all cities]",
+      "[+500]% [Production] [in all cities]"
+    ],
+    "quote": "\"The wisdom of True Dragons unlocked.\""
+  },
+  {
+    "name": "Storm Arts",
+    "cost": 1,
+    "row": 3,
+    "column": 1,
+    "era": "Medieval",
+    "prerequisites": ["Great Sage Protocol"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]"
+    ],
+    "quote": "\"Veldora's tempest reshapes reality.\""
+  },
+  {
+    "name": "Dimensional Science",
+    "cost": 1,
+    "row": 3,
+    "column": 2,
+    "era": "Medieval",
+    "prerequisites": ["Predator Mastery"],
+    "uniques": [
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]"
+    ],
+    "quote": "\"Dimensions fold like paper before Rimuru.\""
+  },
+  {
+    "name": "Absolute Dominion",
+    "cost": 1,
+    "row": 3,
+    "column": 3,
+    "era": "Medieval",
+    "prerequisites": ["Draconic Lore", "Dimensional Science"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]",
+      "[+500]% [Culture] [in all cities]",
+      "[+500]% [Faith] [in all cities]"
+    ],
+    "quote": "\"None can stand before absolute power.\""
+  },
+  {
+    "name": "Octagram Mastery",
+    "cost": 1,
+    "row": 4,
+    "column": 1,
+    "era": "Renaissance",
+    "prerequisites": ["Storm Arts", "Absolute Dominion"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]",
+      "[+500]% [Culture] [in all cities]"
+    ],
+    "quote": "\"Eight pillars of the demon realm unite.\""
+  },
+  {
+    "name": "True Dragon Awakening",
+    "cost": 1,
+    "row": 4,
+    "column": 2,
+    "era": "Renaissance",
+    "prerequisites": ["Absolute Dominion"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]"
+    ],
+    "quote": "\"A True Dragon's awakening shakes the world.\""
+  },
+  {
+    "name": "Infinite Replication",
+    "cost": 1,
+    "row": 4,
+    "column": 3,
+    "era": "Renaissance",
+    "prerequisites": ["Absolute Dominion"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Gold] [in all cities]"
+    ],
+    "quote": "\"Resources replicate endlessly in Tempest.\""
+  },
+  {
+    "name": "Rimuru Awakening",
+    "cost": 1,
+    "row": 5,
+    "column": 2,
+    "era": "Industrial",
+    "prerequisites": ["True Dragon Awakening", "Octagram Mastery", "Infinite Replication"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]",
+      "[+500]% [Culture] [in all cities]",
+      "[+500]% [Faith] [in all cities]"
+    ],
+    "quote": "\"I am Rimuru Tempest — and I will protect everyone.\""
+  }
+]
