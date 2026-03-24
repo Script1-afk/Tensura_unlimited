@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Jura Forest",
+    "leaderName": "Rimuru Tempest",
+    "adjective": "Jura",
+    "style": "Asian",
+    "startBias": ["Forest"],
+    "preferredVictoryType": "Domination",
+    "color": "#4CAF50",
+    "secondaryColor": "#1B5E20",
+    "cities": [
+      "Tempest", "Rimuru City", "Storm Dragon Keep", "Veldora Gate",
+      "Octagram Seat", "Demon King Spire", "Jura Heart", "Milim Rest",
+      "Diablo Domain", "Benimaru Fortress", "Hakuro Stronghold", "Ranga Den",
+      "Shion Watch", "Goblin Village", "Lizardman Crossing", "Orc Settlement",
+      "Dwarven Forge", "Dragon Lair", "Mystical Grove", "Storm Plains"
+    ],
+    "spyNames": ["Shadow Diablo", "Storm Eye", "Rimuru Eye", "The Predator", "Sage Scout"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]",
+      "[+500]% [Culture] [in all cities]",
+      "[+500]% [Faith] [in all cities]",
+      "Enables embarkation for land units",
+      "Units ignore terrain costs when moving into Forest tiles"
+    ],
+    "uniqueBuildings": [
+      "Tempest Castle",
+      "Labyrinth Dimension",
+      "Octagram Court",
+      "Storm Dragon Shrine",
+      "Magicule Forge",
+      "Great Sage Library",
+      "Demon King Palace",
+      "True Dragon Sanctum",
+      "Slimecrown Academy",
+      "Dimensional Armory"
+    ],
+    "uniqueUnits": [
+      "Rimuru Slime",
+      "Rimuru Evolved I",
+      "Rimuru Evolved II",
+      "Rimuru Evolved III",
+      "Rimuru Evolved IV",
+      "Rimuru Evolved V",
+      "Rimuru Evolved VI",
+      "Rimuru Evolved VII",
+      "Rimuru Evolved VIII",
+      "Rimuru Demon King",
+      "Rimuru True Demon Lord",
+      "Veldora Tempest",
+      "Milim Nava",
+      "Diablo",
+      "Shion",
+      "Ranga",
+      "Benimaru",
+      "Hakuro",
+      "Souei",
+      "Geld (Orc Lord)",
+      "Gobta Cavalry",
+      "Lizardman Warrior",
+      "Orc Disaster",
+      "Demon Soldier",
+      "Demon Archer",
+      "Tempest Mage",
+      "True Dragon Guardian",
+      "Storm Dragon Corps",
+      "Dimensional Colossus",
+      "Magicule Bomb",
+      "Jura Forest Settler",
+      "Jura Forest Worker"
+    ],
+    "personality": {
+      "aggression": 6,
+      "expansion": 8,
+      "science": 9,
+      "gold": 7,
+      "culture": 6,
+      "wonder": 8,
+      "buildership": 9,
+      "loyalty": 8,
+      "protection": 8,
+      "militaryPower": 9,
+      "economicPower": 9
+    }
+  },
+  {
+    "name": "Octagram Alliance",
+    "leaderName": "Milim Nava",
+    "adjective": "Octagram",
+    "style": "European",
+    "startBias": ["Hills"],
+    "preferredVictoryType": "Domination",
+    "color": "#E91E63",
+    "secondaryColor": "#880E4F",
+    "cities": [
+      "Milim Domain", "Dragonoid Keep", "Sky Fortress", "Celestial Palace",
+      "Dragon Peak", "Ancient Spire", "Pink Tempest", "Chaos Zone",
+      "Destruction Nexus", "Void Gate"
+    ],
+    "spyNames": ["Dragon Eye", "Milim Scout", "Chaos Blade"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]",
+      "[+500]% [Culture] [in all cities]",
+      "[+500]% [Faith] [in all cities]"
+    ],
+    "personality": {
+      "aggression": 9,
+      "expansion": 7,
+      "science": 6,
+      "gold": 5,
+      "culture": 5,
+      "militaryPower": 10,
+      "economicPower": 7
+    }
+  },
+  {
+    "name": "Demon Realm",
+    "leaderName": "Diablo",
+    "adjective": "Demon Realm",
+    "style": "Asian",
+    "startBias": ["Desert"],
+    "preferredVictoryType": "Domination",
+    "color": "#9C27B0",
+    "secondaryColor": "#4A148C",
+    "cities": [
+      "Diablo Realm", "Shadow Keep", "Demon Gate", "Dark Spire",
+      "Abyss City", "Nether Domain", "Shadow Fortress", "Void Palace",
+      "Chaos Gate", "Darkness Spire"
+    ],
+    "spyNames": ["Shadow Blade", "Void Eye", "Dark Servant"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]"
+    ],
+    "personality": {
+      "aggression": 8,
+      "expansion": 9,
+      "science": 7,
+      "gold": 8,
+      "militaryPower": 9,
+      "economicPower": 8
+    }
+  },
+  {
+    "name": "Veldora Empire",
+    "leaderName": "Veldora",
+    "adjective": "Veldoran",
+    "style": "Asian",
+    "startBias": ["Mountains"],
+    "preferredVictoryType": "Domination",
+    "color": "#FF9800",
+    "secondaryColor": "#E65100",
+    "cities": [
+      "Storm Sanctum", "Veldora Lair", "Dragon Citadel", "Tempest Core",
+      "Wind Palace", "Thunder Domain", "Storm Peak", "Tempest Gate",
+      "Gale Hold", "Cyclone City"
+    ],
+    "spyNames": ["Storm Wing", "Tempest Eye", "Thunder Claw"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]",
+      "[+500]% [Culture] [in all cities]"
+    ],
+    "personality": {
+      "aggression": 9,
+      "expansion": 6,
+      "science": 8,
+      "gold": 6,
+      "militaryPower": 10,
+      "economicPower": 6
+    }
+  },
+  {
+    "name": "Benimaru Clan",
+    "leaderName": "Benimaru",
+    "adjective": "Oni",
+    "style": "Asian",
+    "startBias": ["Hills", "Forest"],
+    "preferredVictoryType": "Domination",
+    "color": "#F44336",
+    "secondaryColor": "#B71C1C",
+    "cities": [
+      "Oni Stronghold", "Benimaru Keep", "Flame Gate", "Red Citadel",
+      "Fire Peak", "Blaze Domain", "Inferno City", "Ember Hold",
+      "Ash Fortress", "Char Spire"
+    ],
+    "spyNames": ["Flame Scout", "Oni Blade", "Fire Eye"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]"
+    ],
+    "personality": {
+      "aggression": 7,
+      "expansion": 7,
+      "science": 6,
+      "gold": 6,
+      "militaryPower": 9,
+      "economicPower": 6
+    }
+  },
+  {
+    "name": "Lizardman Nation",
+    "leaderName": "Gabiru",
+    "adjective": "Lizardman",
+    "style": "Asian",
+    "startBias": ["Floodplains", "Marsh"],
+    "preferredVictoryType": "Domination",
+    "color": "#00BCD4",
+    "secondaryColor": "#006064",
+    "cities": [
+      "Lizard City", "Scale Fortress", "Marsh Keep", "Swamp Domain",
+      "River Hold", "Delta City", "Reptile Gate", "Bog Stronghold",
+      "Scale Peak", "Venom Hold"
+    ],
+    "spyNames": ["Scale Spy", "Swamp Eye", "Marsh Scout"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]"
+    ],
+    "personality": {
+      "aggression": 6,
+      "expansion": 7,
+      "science": 5,
+      "gold": 6,
+      "militaryPower": 7,
+      "economicPower": 6
+    }
+  },
+  {
+    "name": "Dwarf Kingdom",
+    "leaderName": "Gazel Dwargo",
+    "adjective": "Dwarven",
+    "style": "European",
+    "startBias": ["Hills", "Mountains"],
+    "preferredVictoryType": "Scientific",
+    "color": "#795548",
+    "secondaryColor": "#3E2723",
+    "cities": [
+      "Dwargon", "Iron Forge", "Mountain Keep", "Granite City",
+      "Ore District", "Rock Palace", "Forge Domain", "Steel Hold",
+      "Anvil City", "Hammer Peak"
+    ],
+    "spyNames": ["Iron Spy", "Forge Eye", "Mountain Scout"],
+    "uniques": [
+      "[+500]% [Production] [in all cities]",
+      "[+500]% [Science] [in all cities]",
+      "[+500]% [Gold] [in all cities]"
+    ],
+    "personality": {
+      "aggression": 5,
+      "expansion": 6,
+      "science": 9,
+      "gold": 8,
+      "militaryPower": 7,
+      "economicPower": 9
+    }
+  },
+  {
+    "name": "Western Holy Church",
+    "leaderName": "Hinata Sakaguchi",
+    "adjective": "Holy",
+    "style": "European",
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Cultural",
+    "color": "#FFEB3B",
+    "secondaryColor": "#F57F17",
+    "cities": [
+      "Holy Capital", "Blessed City", "Sacred Keep", "Divine Domain",
+      "Celestial Gate", "Light Fortress", "Heaven Hold", "Grace City",
+      "Purity Spire", "Faith Domain"
+    ],
+    "spyNames": ["Holy Eye", "Light Scout", "Blessed Blade"],
+    "uniques": [
+      "[+500]% [Faith] [in all cities]",
+      "[+500]% [Culture] [in all cities]",
+      "[+500]% [Science] [in all cities]"
+    ],
+    "personality": {
+      "aggression": 5,
+      "expansion": 6,
+      "science": 7,
+      "gold": 6,
+      "culture": 9,
+      "militaryPower": 6,
+      "economicPower": 7
+    }
+  }
+]
