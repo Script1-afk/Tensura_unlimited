@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Magical Node",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest"],
+    "techRequired": "Mystical Arts",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+50] [Science] from improvement",
+      "[+50] [Production] from improvement",
+      "[+50] [Gold] from improvement"
+    ]
+  },
+  {
+    "name": "Demon Altar",
+    "terrainsCanBeBuiltOn": ["Plains", "Hills", "Desert"],
+    "techRequired": "Demonic Pacts",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Production] from improvement",
+      "[+50] [Faith] from improvement"
+    ]
+  },
+  {
+    "name": "Dragon Shrine",
+    "terrainsCanBeBuiltOn": ["Hills", "Mountains"],
+    "techRequired": "Draconic Lore",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Production] from improvement",
+      "[+50] [Science] from improvement",
+      "[+50] [Gold] from improvement"
+    ]
+  },
+  {
+    "name": "Dimensional Rift",
+    "terrainsCanBeBuiltOn": ["Plains", "Desert", "Tundra"],
+    "techRequired": "Dimensional Science",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Science] from improvement",
+      "[+50] [Production] from improvement"
+    ]
+  },
+  {
+    "name": "Storm Vortex",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest"],
+    "techRequired": "Storm Arts",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+75] [Production] from improvement",
+      "[+75] [Gold] from improvement",
+      "[+25] [Science] from improvement"
+    ]
+  },
+  {
+    "name": "Power Nexus",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest", "Hills", "Desert", "Tundra"],
+    "techRequired": "Absolute Dominion",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+999] [Production] from improvement",
+      "[+999] [Science] from improvement",
+      "[+999] [Gold] from improvement",
+      "[+999] [Faith] from improvement",
+      "[+999] [Culture] from improvement"
+    ]
+  }
+]
