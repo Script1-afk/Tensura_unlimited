@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Predator I",
+    "prerequisites": [],
+    "unitTypes": ["Melee", "Mounted", "Ranged"],
+    "uniques": [
+      "[+25]% Strength"
+    ]
+  },
+  {
+    "name": "Predator II",
+    "prerequisites": ["Predator I"],
+    "unitTypes": ["Melee", "Mounted", "Ranged"],
+    "uniques": [
+      "[+25]% Strength",
+      "Heal this unit by [100] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Predator III",
+    "prerequisites": ["Predator II"],
+    "unitTypes": ["Melee", "Mounted", "Ranged"],
+    "uniques": [
+      "[+50]% Strength",
+      "Heal this unit by [200] HP when killing a unit"
+    ]
+  },
+  {
+    "name": "Great Sage I",
+    "prerequisites": [],
+    "unitTypes": ["Melee", "Mounted"],
+    "uniques": [
+      "[+25]% Strength",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Great Sage II",
+    "prerequisites": ["Great Sage I"],
+    "unitTypes": ["Melee", "Mounted"],
+    "uniques": [
+      "[+50]% Strength",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Storm Aura",
+    "prerequisites": ["Great Sage II"],
+    "unitTypes": ["Melee"],
+    "uniques": [
+      "[+50]% Strength",
+      "[+50]% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Demon King Might",
+    "prerequisites": ["Predator III", "Storm Aura"],
+    "unitTypes": ["Melee", "Mounted"],
+    "uniques": [
+      "[+100]% Strength",
+      "Heal this unit by [500] HP when killing a unit",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "True Dragon Blood",
+    "prerequisites": ["Demon King Might"],
+    "unitTypes": ["Melee"],
+    "uniques": [
+      "[+100]% Strength",
+      "[+100]% Ranged Strength",
+      "Heal this unit by [1000] HP when killing a unit"
+    ]
+  }
+]
